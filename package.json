@@ -1,0 +1,14 @@
+{
+  "name": "noorgenx-api",
+  "version": "1.0.0",
+  "description": "Minimal NoorGenX backend API for Cloud Run (health + analyze endpoints).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "cors": "^2.8.5"
+  }
+}
